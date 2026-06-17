@@ -1,0 +1,15 @@
+2026-06-17 10:18:22,947 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-17 10:18:22,949 [INFO] Added job "nightly_retrain" to job store "default"
+2026-06-17 10:18:22,950 [INFO] Scheduler started
+2026-06-17 10:18:22,953 [INFO] No model found on startup — training now...
+2026-06-17 10:18:22,990 [INFO] Model trained — MAE: 11.20 min | Samples: 2560 (seed only (2560 rows: kaggle_seed + queue_data) — waiting for real data)
+2026-06-17 10:18:23,022 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.31:5000
+2026-06-17 10:18:23,022 [INFO] [33mPress CTRL+C to quit[0m
+2026-06-17 10:18:36,955 [INFO] 127.0.0.1 - - [17/Jun/2026 10:18:36] "GET /health HTTP/1.1" 200 -
+2026-06-17 10:18:47,069 [INFO] 127.0.0.1 - - [17/Jun/2026 10:18:47] "POST /predict HTTP/1.1" 200 -
+2026-06-17 10:28:47,443 [INFO] 127.0.0.1 - - [17/Jun/2026 10:28:47] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-17 10:28:47,758 [INFO] 127.0.0.1 - - [17/Jun/2026 10:28:47] "GET /health HTTP/1.1" 200 -
+2026-06-17 10:28:48,017 [INFO] 127.0.0.1 - - [17/Jun/2026 10:28:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

@@ -1,0 +1,5 @@
+flask==3.0.0
+scikit-learn==1.4.0
+numpy==1.26.4
+gunicorn==21.2.0
+apscheduler==3.10.4

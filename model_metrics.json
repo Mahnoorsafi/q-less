@@ -1,0 +1,20 @@
+{
+  "trained_at": "2026-06-17T05:18:22.990154Z",
+  "source": "seed only (2560 rows: kaggle_seed + queue_data) \u2014 waiting for real data",
+  "total_samples": 2560,
+  "seed_samples": 2560,
+  "queue_data_samples": 560,
+  "real_samples": 0,
+  "mae_minutes": 11.2,
+  "model_type": "LinearRegression",
+  "features": [
+    "queue_length",
+    "avg_service_time",
+    "hour_of_day",
+    "day_of_week",
+    "staff_count",
+    "is_peak",
+    "is_weekend",
+    "branch_encoded"
+  ]
+}

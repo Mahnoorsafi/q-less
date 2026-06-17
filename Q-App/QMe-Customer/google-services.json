@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373591312942",
+    "project_id": "queue-management-28198",
+    "storage_bucket": "queue-management-28198.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373591312942:android:f2def75891abbc0c4d6dbf",
+        "android_client_info": {
+          "package_name": "com.qme.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2CG6HX1bgDVr5cU6fYPlEZyZoBy457rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

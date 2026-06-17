@@ -1,0 +1,2 @@
+.admin-app { display: flex; min-height: 100vh; background: #eef2ff; }
+.admin-main { flex: 1; padding: 24px; }

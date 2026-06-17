@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Qless",
+    "slug": "qme-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mascot.png",
+    "scheme": "qless",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mascot.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5B8A5B"
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "android": {
+      "package": "com.qless.customer",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBdxYpBw855JfCp-qxOt2dnKHWdIhBcW6M"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mascot.png",
+        "backgroundColor": "#5B8A5B"
+      }
+    },
+    "web": {
+      "favicon": "./assets/mascot.png",
+      "name": "Qless",
+      "splash": {
+        "image": "./assets/mascot.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#5B8A5B"
+      }
+    },
+    "plugins": [
+      "expo-web-browser",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Qless to show your location on the branch map."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8e2c9c11-8b4b-4404-affe-34e5a28c7cfd"
+      }
+    }
+  }
+}

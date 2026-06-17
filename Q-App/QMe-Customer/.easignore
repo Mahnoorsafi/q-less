@@ -1,0 +1,29 @@
+# Reduce EAS upload size by excluding files that are not needed for native release builds
+
+# dependencies
+node_modules
+
+# build caches
+.expo
+.gradle
+build
+
+# git
+.git
+.gitignore
+
+# react native / expo source not needed for native compilation (keep src)
+# (do not exclude src)
+
+# keep android, assets, app.json, package.json, lockfiles, eas.json
+
+# logs
+*.log
+
+# common local files
+*.env
+
+# misc
+*.DS_Store
+*.swp
+

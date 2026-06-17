@@ -1,0 +1,5 @@
+.sidebar { width: 220px; background: #1e293b; color: #f8fafc; padding: 24px 18px; min-height: 100vh; }
+.brand { font-size: 20px; font-weight: 700; margin-bottom: 28px; }
+.sidebar nav a { display: block; margin-bottom: 14px; color: #cbd5e1; font-weight: 500; }
+.sidebar nav a.active { color: #fff; }
+.sidebar nav a:hover { color: #a5b4fc; }
