@@ -74,13 +74,17 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
 }).addTo(map);
 
-function makeIcon(color) {
+function makeIcon(color, name) {
+  var label = '<div style="position:relative;display:inline-block;text-align:center">'
+    + '<div style="width:26px;height:26px;background:' + color + ';border:3px solid #fff;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.4);margin:0 auto"></div>'
+    + '<div style="margin-top:3px;background:' + color + ';color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:8px;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,0.3)">' + name + '</div>'
+    + '</div>';
   return L.divIcon({
     className: '',
-    html: '<div style="width:22px;height:22px;background:' + color + ';border:3px solid #fff;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.4)"></div>',
-    iconSize: [22, 22],
-    iconAnchor: [11, 11],
-    popupAnchor: [0, -14],
+    html: label,
+    iconSize: [80, 52],
+    iconAnchor: [40, 26],
+    popupAnchor: [0, -30],
   });
 }
 
@@ -99,7 +103,7 @@ markers.forEach(function(m) {
     popupHtml += '<button class="dir-btn" onclick="getDir(' + m.lat + ',' + m.lng + ',null,null)">📍 View on Map</button>';
   }
 
-  L.marker([m.lat, m.lng], { icon: makeIcon(m.color) })
+  L.marker([m.lat, m.lng], { icon: makeIcon(m.color, name) })
     .addTo(map)
     .bindPopup(popupHtml);
 });
